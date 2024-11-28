@@ -1,0 +1,28 @@
+{
+    "name": "php/apple-pay",
+    "description": "ApplePay php Token Decoder",
+    "type": "library",
+    "require": {
+        "php": "^7.4|^8.0",
+        "ext-openssl": "*",
+        "phpseclib/phpseclib": "^3.0",
+        "spomky-labs/php-aes-gcm": "^1.2",
+        "symfony/process": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.4"
+    },
+    "license": "Apache-2.0",
+    "autoload": {
+        "psr-4": {
+            "Php\\ApplePay\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "raojeet",
+            "email": "jeet.yadav25@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
