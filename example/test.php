@@ -1,9 +1,9 @@
 <?php
 
-use Php\ApplePay\ApplePayDecodingServiceFactory;
-use Php\ApplePay\Validator\ApplePayValidator;
-use Php\ApplePay\Exception\DecodingFailedException;
-use Php\ApplePay\Exception\InvalidFormatException;
+use ApplePayIntegration\ApplePayDecodingServiceFactory;
+use ApplePayIntegration\Validator\ApplePayValidator;
+use ApplePayIntegration\Exception\DecodingFailedException;
+use ApplePayIntegration\Exception\InvalidFormatException;
 
 require __DIR__ . '/../vendor/autoload.php';
 

@@ -5,7 +5,7 @@ This library is used to decode tokens for Apple Pay.
 It takes a payment token data and returns an ApplePayPaymentData object.
 ex:
 ```
-class Php\ApplePay\Decoding\ApplePayPaymentData#19 (9) {
+class ApplePayIntegration\Decoding\ApplePayPaymentData#19 (9) {
   private $version =>
   int(1)
   private $applicationPrimaryAccountNumber =>
