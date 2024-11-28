@@ -1,5 +1,5 @@
 {
-    "name": "php/apple-pay",
+    "name": "apple-pay/php",
     "description": "ApplePay php Token Decoder",
     "type": "library",
     "require": {
