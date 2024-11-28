@@ -1,7 +1,9 @@
 {
-    "name": "apple-pay/php",
+    "name": "raojeet/apple-pay",
     "description": "ApplePay php Token Decoder",
     "type": "library",
+    "keywords": ["php", "apple-pay", "openssl", "decryption"],
+    "homepage": "https://github.com/raojeet/apple-pay",
     "require": {
         "php": "^7.4|^8.0",
         "ext-openssl": "*",
@@ -23,6 +25,5 @@
             "name": "raojeet",
             "email": "jeet.yadav25@gmail.com"
         }
-    ],
-    "minimum-stability": "stable"
+    ]
 }

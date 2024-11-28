@@ -30,7 +30,7 @@ class ApplePayIntegration\Decoding\ApplePayPaymentData#19 (9) {
 
 **Install:**
 
-Run `composer require php/apple-pay`
+Run `composer require raojeet/apple-pay`
 
 **Get AppleRootCA-G3.pem:**
 
@@ -45,7 +45,7 @@ Run `composer require php/apple-pay`
 
 **Usage:**
 
-See https://github.com/raojeet/apple-pay/blob/master/example/test.php
+See https://github.com/raojeet/apple-pay/blob/main/example/test.php
 
 For more information about how Apple Pay tokens decoding works go to:
 https://developer.apple.com/library/content/documentation/PassKit/Reference/PaymentTokenJSON/PaymentTokenJSON.html
