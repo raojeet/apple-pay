@@ -1,7 +1,7 @@
 <?php
 
-use Php\ApplePay\Validator\ApplePayValidator;
-use Php\ApplePay\Exception\InvalidFormatException;
+use ApplePayIntegration\Validator\ApplePayValidator;
+use ApplePayIntegration\Exception\InvalidFormatException;
 use PHPUnit\Framework\TestCase;
 
 class ApplePayValidatorTest extends TestCase

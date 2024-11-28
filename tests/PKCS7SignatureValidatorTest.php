@@ -1,10 +1,10 @@
 <?php
 
-namespace Php\ApplePay\Decoding;
+namespace ApplePayIntegration\Decoding;
 
-use Php\ApplePay\Decoding\OpenSslService;
-use Php\ApplePay\Decoding\SignatureVerifier\SignatureVerifierFactory;
-use Php\ApplePay\Decoding\TemporaryFileService;
+use ApplePayIntegration\Decoding\OpenSslService;
+use ApplePayIntegration\Decoding\SignatureVerifier\SignatureVerifierFactory;
+use ApplePayIntegration\Decoding\TemporaryFileService;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 use RuntimeException;

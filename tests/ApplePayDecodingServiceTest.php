@@ -1,10 +1,10 @@
 <?php
 
-namespace Php\ApplePay\Decoding;
+namespace ApplePayIntegration\Decoding;
 
 use Exception;
-use Php\ApplePay\Decoding\Decoder\ApplePayDecoderFactory;
-use Php\ApplePay\Decoding\Decoder\ApplePayEccDecoder;
+use ApplePayIntegration\Decoding\Decoder\ApplePayDecoderFactory;
+use ApplePayIntegration\Decoding\Decoder\ApplePayEccDecoder;
 use PHPUnit\Framework\MockObject\MockObject as MockObject;
 
 use PHPUnit\Framework\TestCase;
